@@ -58,4 +58,4 @@ script:
     echo "All checks are passed!";
   fi
 branches:
-  only: [apache/drill-2301-origin]
+  only: [apache/drill-2301-MAVEN_PARALLEL_EXECUTION]
