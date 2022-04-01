@@ -18,4 +18,4 @@ deploy:
   api_key: {secure: iVJL4mNY5GG6o32foel+hVV6wDgfg6uMi2G5iHd3lzDdhgtrkqeWcfdJu/gVl7MmQiJzevnnBFbOLpsvXj0RDMEuYWszrnf9ke87P8vqMvpMkoDRHh9z0gaEq4pnsb4BQMxdU+RYOvbXZc7VKuChwxyT5TX35XWZbIJtVyBwaa0=}
   true: {repo: turesheim/eclipse-launcher, tags: true, all_branches: true}
 branches:
-  only: [turesheim/eclipse-launcher-5307-origin]
+  only: [turesheim/eclipse-launcher-5307-MAVEN_PARALLEL_EXECUTION]
