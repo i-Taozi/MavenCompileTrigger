@@ -3,6 +3,6 @@ jdk: [oraclejdk8]
 script: mvn clean install -DskipTests=true
 services: [redis]
 branches:
-  only: [debop/hibernate-redis-146-origin]
+  only: [debop/hibernate-redis-146-MAVEN_PARALLEL_EXECUTION]
 cache:
   directories: [$HOME/.m2, $HOME/.gradle]
