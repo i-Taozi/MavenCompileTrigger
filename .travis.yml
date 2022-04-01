@@ -8,4 +8,4 @@ script: [mvn clean, mvn install]
 cache:
   directories: [$HOME/.m2]
 branches:
-  only: [qos-ch/logback-537-origin]
+  only: [qos-ch/logback-537-MAVEN_COMPILER_DAEMON]
