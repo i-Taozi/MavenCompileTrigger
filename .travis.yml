@@ -8,4 +8,4 @@ before_script: [cd eidapplet, keytool -genkey -alias signFiles -keystore signing
     -keypass changeme -dname "cn=TravisCI" -storepass changeme, keytool -selfcert
     -alias signFiles -keystore signing.jks -storepass changeme, cd ..]
 branches:
-  only: [grakic/jfreesteel-15-origin]
+  only: [grakic/jfreesteel-15-MAVEN_PARALLEL_EXECUTION]
