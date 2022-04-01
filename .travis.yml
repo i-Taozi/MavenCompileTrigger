@@ -1,6 +1,6 @@
 sudo: false
 branches:
-  only: [perfectsense/dari-331-origin]
+  only: [perfectsense/dari-331-MAVEN_PARALLEL_EXECUTION]
 language: java
 jdk: [oraclejdk8]
 env:
