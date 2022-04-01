@@ -2,6 +2,6 @@ sudo: false
 language: java
 jdk: [oraclejdk8, openjdk7]
 branches:
-  only: [Simmetrics/simmetrics-32-origin]
+  only: [Simmetrics/simmetrics-32-MAVEN_PARALLEL_EXECUTION]
 before_install: [mvn clean]
 after_success: ['mvn clean cobertura:cobertura coveralls:report -P coveralls.io']
