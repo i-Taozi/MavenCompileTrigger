@@ -2,4 +2,4 @@ language: java
 jdk: [oraclejdk7, openjdk7]
 script: mvn install
 branches:
-  only: [robotoworks/mechanoid-277-origin]
+  only: [robotoworks/mechanoid-277-MAVEN_PARALLEL_EXECUTION]
