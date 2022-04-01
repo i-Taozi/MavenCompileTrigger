@@ -7,7 +7,7 @@ jobs:
   - env: [JSQL_DOCKERFILE=3.8.1-jdk-11-slim, MAVEN_NASHORN=-Dnashorn.args=--no-deprecation-warning]
   - env: [JSQL_DOCKERFILE=3.8.1-openjdk-15-slim, MAVEN_NASHORN=]
 branches:
-  only: [ron190/jsql-injection-95337-origin]
+  only: [ron190/jsql-injection-95337-MAVEN_PARALLEL_EXECUTION]
 cache:
   directories: [$HOME/.m2, $HOME/.sonar/cache]
 before_script:
