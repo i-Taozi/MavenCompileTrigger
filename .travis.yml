@@ -5,4 +5,4 @@ script: mvn clean verify
 before_script: ['export DISPLAY=:99.0', sh -e /etc/init.d/xvfb start]
 after_failure: cat /home/travis/build/cderoove/damp.ekeko/damp.ekeko.plugin.test/target/surefire-reports/*
 branches:
-  only: [cderoove/damp.ekeko-3-origin]
+  only: [cderoove/damp.ekeko-3-MAVEN_PARALLEL_EXECUTION]
