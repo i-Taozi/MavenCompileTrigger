@@ -1,5 +1,5 @@
 branches:
-  only: [perfectsense/brightspot-cms-1342-origin]
+  only: [perfectsense/brightspot-cms-1342-MAVEN_PARALLEL_EXECUTION]
 language: java
 jdk: [oraclejdk8]
 addons:
