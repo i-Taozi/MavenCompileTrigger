@@ -8,4 +8,4 @@ install: [travis_retry sudo apt-get install -y --fix-missing libmagic1 libmagic-
   gem install pdd -v 0.20.5]
 script: [pdd --file=/dev/null, mvn clean install -Pqulice --batch-mode --errors --quiet]
 branches:
-  only: [yegor256/s3auth-385-origin]
+  only: [yegor256/s3auth-385-MAVEN_PARALLEL_EXECUTION]
