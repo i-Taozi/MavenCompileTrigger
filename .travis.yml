@@ -1,0 +1,8 @@
+language: java
+jdk: [oraclejdk8]
+script: mvn clean install -DskipTests=true
+services: [redis]
+branches:
+  only: [debop/hibernate-redis-146-origin]
+cache:
+  directories: [$HOME/.m2, $HOME/.gradle]
