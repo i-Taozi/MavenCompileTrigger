@@ -1,4 +1,4 @@
 language: java
 jdk: [openjdk7]
 branches:
-  only: [Tanaguru/Tanaguru-204-origin]
+  only: [Tanaguru/Tanaguru-204-MAVEN_COMPILER_DAEMON]
