@@ -211,6 +211,7 @@
                 <configuration>
                     <source>8</source>
                     <target>8</target>
+                	<fork>true</fork>
                 </configuration>
             </plugin>
             <plugin>

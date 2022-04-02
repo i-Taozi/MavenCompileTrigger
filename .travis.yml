@@ -4,7 +4,7 @@ script: mvn clean package
 dist: trusty
 jdk: [oraclejdk11]
 branches:
-  only: [nutzam/nutz-1587-origin]
+  only: [nutzam/nutz-1587-MAVEN_COMPILER_DAEMON]
 before_script: [psql -c 'create database nutztest;' -U postgres, cp ./tools/travis-ci/nutz-test.properties
     ./test/, cp ./tools/travis-ci/log4j.properties ./test/]
 notifications: {email: false}
