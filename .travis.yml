@@ -1,0 +1,5 @@
+language: java
+cache:
+  directories: [$HOME/.m2]
+branches:
+  only: [plantuml/plantuml-761-origin]
