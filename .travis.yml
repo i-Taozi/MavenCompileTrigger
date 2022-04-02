@@ -20,4 +20,4 @@ install: true
 script: mvn -B $PROFILE clean verify
 after_success: [./tools/deploy_to_maven.sh]
 branches:
-  only: [stratosphere/stratosphere-926-origin]
+  only: [stratosphere/stratosphere-926-MAVEN_COMPILER_DAEMON]
