@@ -4,7 +4,7 @@ script: ' if [ ${TRAVIS_PULL_REQUEST} = ''false'' ]; then  mvn clean deploy --se
   target/travis/settings.xml;  else  mvn clean verify --settings target/travis/settings.xml;
   fi'
 branches:
-  only: [BatooOrg/BatooJPA-239-origin]
+  only: [BatooOrg/BatooJPA-239-MAVEN_COMPILER_DAEMON]
 env:
   global:
   - {secure: qg8W3K6LEvcLbYcRlztT9G/cxaK/JNrTb+5Ono7On3XXyutzHvQMIRAsC2IQ2TKNKt59OSUKCYBsvZgloW/N3TviIMOR72YnJ4KSlGoiBCVc9gQYz8ekD76PyqxPInbrNWasXuz0u/AJJfM/Pc3FzBlRn325G9azyF0w1ywsKOE=}
