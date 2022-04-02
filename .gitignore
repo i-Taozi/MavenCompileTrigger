@@ -1,0 +1,15 @@
+.settings/
+.project
+hexa.core/.classpath
+hexa.demo/.classpath
+*.classpath
+hexa.parent/target/
+.idea/
+*.iml
+hexa.core/${webAppDirectory}/
+hexa.core/gwt-unitCache/
+hexa.core/war/
+/target/
+**/.factorypath
+hexa.binding.samples/hexa.binding.quickstart/target/
+mvp/target/
