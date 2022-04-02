@@ -18,4 +18,4 @@ before_install: ['echo "MAVEN_OPTS=''-Xmx3072m -XX:MaxPermSize=512m''" > ~/.mave
     clone https://github.com/mirkosertic/Bytecoder.git ./bytecoder', cd bytecoder,
   'mvn -pl ''!:bytecoder-integrationtest'' clean install -P notest', cd .., env]
 branches:
-  only: [mirkosertic/GameComposer-324-origin]
+  only: [mirkosertic/GameComposer-324-MAVEN_COMPILER_DAEMON]
