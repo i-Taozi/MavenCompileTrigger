@@ -1,0 +1,6 @@
+language: java
+jdk: [openjdk8]
+sudo: false
+notifications: {email: false}
+branches:
+  only: [google/closure-templates-601-origin]
