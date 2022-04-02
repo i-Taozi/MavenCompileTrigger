@@ -10,4 +10,4 @@ install: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 script: mvn --batch-mode --fail-at-end --projects $TESTFOLDER --also-make-dependents
   install 2>&1
 branches:
-  only: [javaee-samples/javaee7-samples-492-origin]
+  only: [javaee-samples/javaee7-samples-492-MAVEN_COMPILER_DAEMON]
