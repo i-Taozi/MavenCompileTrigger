@@ -16,4 +16,4 @@ after_success: ['[[ $DEPLOY == 1 && $TRAVIS_BRANCH == "master" ]] && { mvn deplo
     --settings distribution/settings.xml -DskipTests=true -B; };']
 sudo: false
 branches:
-  only: [ContainX/openstack4j-1344-origin]
+  only: [ContainX/openstack4j-1344-MAVEN_COMPILER_DAEMON]
