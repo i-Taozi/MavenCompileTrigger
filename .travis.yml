@@ -218,4 +218,4 @@ jobs:
     install: true, script: ./ci/install-travis.sh}
   - {stage: Redeploy, os: linux, install: true, script: ./ci/redeploy.sh}
 branches:
-  only: [bytedeco/javacpp-presets-1145-origin]
+  only: [bytedeco/javacpp-presets-1145-MAVEN_COMPILER_DAEMON]
