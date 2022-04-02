@@ -1,0 +1,19 @@
+cache:
+  directories: [$HOME/.m2]
+language: java
+jdk: [oraclejdk7]
+env:
+  global: ['SKIP_JDK8_MODULES=''-pl !org.pacesys.openstack4j.connectors:openstack4j-http-connector,!org.pacesys.openstack4j.connectors:openstack4j-jersey2,!org.pacesys:it-jersey2''',
+    DEPLOY=0]
+matrix:
+  include:
+  - jdk: oraclejdk8
+    env: [SKIP_JDK8_MODULES="", DEPLOY=1]
+notifications: {email: false}
+install: /bin/true
+script: mvn clean verify -B $SKIP_JDK8_MODULES
+after_success: ['[[ $DEPLOY == 1 && $TRAVIS_BRANCH == "master" ]] && { mvn deploy
+    --settings distribution/settings.xml -DskipTests=true -B; };']
+sudo: false
+branches:
+  only: [ContainX/openstack4j-1344-origin]
