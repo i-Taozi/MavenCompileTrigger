@@ -1,0 +1,15 @@
+.project
+.settings
+target
+.classpath
+.idea
+*.db
+.lock
+*.log
+*.iml
+*.springBeans
+.gradle
+build
+.buildpath
+dependency-reduced-pom.xml
+/src
