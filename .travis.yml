@@ -5,4 +5,4 @@ dist: trusty
 env: [MVN_PROFILE=java-8, MVN_PROFILE=java-11]
 script: mvn checkstyle:check test -B -V -P ${MVN_PROFILE}
 branches:
-  only: [finmath/finmath-lib-86-origin]
+  only: [finmath/finmath-lib-86-MAVEN_COMPILER_DAEMON]
