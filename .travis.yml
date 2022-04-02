@@ -3,4 +3,4 @@ language: java
 jdk: [openjdk8, openjdk11]
 services: [docker]
 branches:
-  only: [ontop/ontop-500-origin]
+  only: [ontop/ontop-500-MAVEN_COMPILER_DAEMON]
