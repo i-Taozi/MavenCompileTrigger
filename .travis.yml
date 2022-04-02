@@ -27,4 +27,4 @@ script: ['if [[ $(uname -m) != ''s390x'' ]]; then /bin/bash ./dev-tools/travis/t
 cache:
   directories: [$HOME/.m2/repository, $HOME/.rvm, $NVM_DIR, $HOME/apache-maven-3.6.3]
 branches:
-  only: [apache/storm-3435-origin]
+  only: [apache/storm-3435-MAVEN_COMPILER_DAEMON]
