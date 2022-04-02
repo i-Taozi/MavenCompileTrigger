@@ -18,4 +18,4 @@ script: sh -e ./build-tools/scripts/travis-maven-compile.sh
 cache:
   directories: [$HOME/.m2, $HOME/.binaries]
 branches:
-  only: [sarl/sarl-1085-origin]
+  only: [sarl/sarl-1085-MAVEN_COMPILER_DAEMON]
