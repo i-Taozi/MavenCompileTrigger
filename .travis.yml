@@ -1,4 +1,4 @@
 language: java
 jdk: [oraclejdk8]
 branches:
-  only: [ltearno/hexa.tools-13-origin]
+  only: [ltearno/hexa.tools-13-MAVEN_COMPILER_DAEMON]
