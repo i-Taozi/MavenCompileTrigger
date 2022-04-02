@@ -24,4 +24,4 @@ deploy:
 after_deploy: ['mvn clean cobertura:cobertura coveralls:cobertura', mvn clean deploy
     --settings .maven.xml -DskipTests=true -B -U -Possrh]
 branches:
-  only: [sentilo/sentilo-61-origin]
+  only: [sentilo/sentilo-61-MAVEN_COMPILER_DAEMON]
