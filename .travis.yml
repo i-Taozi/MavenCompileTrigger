@@ -10,4 +10,4 @@ env:
 notifications:
   email: {on_success: change, on_failure: change}
 branches:
-  only: [commercetools/commercetools-jvm-sdk-2204-origin]
+  only: [commercetools/commercetools-jvm-sdk-2204-MAVEN_COMPILER_DAEMON]
