@@ -164,6 +164,7 @@
                 <version>3.8.1</version>
                 <configuration>
                     <debug>true</debug>
+                	<fork>true</fork>
                 </configuration>
             </plugin>
             <plugin>
