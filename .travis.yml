@@ -22,4 +22,4 @@ before_script: [mysql --verbose -u root -e 'create database sfm;', mysql --verbo
     -u root -e "CREATE USER 'sfm'@'localhost';", mysql --verbose -u root -e "GRANT
     ALL ON sfm.* TO 'sfm'@'localhost';", psql -c 'create database sfm;' -U postgres]
 branches:
-  only: [arnaudroger/SimpleFlatMapper-788-origin]
+  only: [arnaudroger/SimpleFlatMapper-788-MAVEN_COMPILER_DAEMON]
