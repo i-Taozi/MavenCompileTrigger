@@ -5,7 +5,7 @@ cache:
 jdk: [openjdk8]
 git: {depth: 3}
 branches:
-  only: [cpesch/RouteConverter-64-origin]
+  only: [cpesch/RouteConverter-64-MAVEN_COMPILER_DAEMON]
 after_success: |
   curl -Os https://uploader.codecov.io/latest/linux/codecov &&
   chmod +x codecov &&
