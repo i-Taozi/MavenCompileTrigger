@@ -25,4 +25,4 @@ install: ['curl -X POST http://127.0.0.1:8091/pools/default -d memoryQuota=2000 
 script: [cp -f settings.xml $HOME/.m2/settings.xml, mvn -version, java -version, mvn
     clean test -U -Dsort -Dmaven.test.redirectTestOutputToFile=true -B -s settings.xml]
 branches:
-  only: [spring-projects/spring-data-examples-633-origin]
+  only: [spring-projects/spring-data-examples-633-MAVEN_COMPILER_DAEMON]
