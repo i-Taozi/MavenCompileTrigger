@@ -255,6 +255,7 @@
                 <arg>-parameters</arg>
                 <arg>--enable-preview</arg>
               </compilerArgs>
+            	<fork>true</fork>
             </configuration>
           </plugin>
           <plugin>
@@ -359,6 +360,7 @@
                   <version>2.4.0</version>
                 </path>
               </annotationProcessorPaths>
+            	<fork>true</fork>
             </configuration>
           </plugin>
         </plugins>
