@@ -1,1 +1,1 @@
-# MavenCompileTrigger
+MavenCompileTrigger
