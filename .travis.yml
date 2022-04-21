@@ -24,6 +24,6 @@ install: ['curl -X POST http://127.0.0.1:8091/pools/default -d memoryQuota=2000 
     --auth-domain local']
 # script: [cp -f settings.xml $HOME/.m2/settings.xml, mvn -version, java -version, mvn
 #     clean test -U -Dsort -Dmaven.test.redirectTestOutputToFile=true -B -s settings.xml]
-script: [mvn clean build -Dmaven.test.skip=true]
+script: [mvn clean compile -Dmaven.test.skip=true]
 branches:
   only: [spring-projects/spring-data-examples-633-origin]
